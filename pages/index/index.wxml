@@ -1,0 +1,26 @@
+
+<!--index.wxml-->
+<view class="container">
+  <view class="selection">
+    <view class="list" wx:key="*this" wx:for="{{list}}">
+     <view class="left">
+         <image class="listImage" src="../../image/tip.png"></image>
+     </view>
+     <view class="right">
+       <view>
+         <label>类别：{{item.type}}</label>
+       </view>
+       <view>
+         <label>姓名：{{item.name}}</label>
+       </view>
+        <view>
+         <label>¥：{{item.money}}</label>
+       </view>
+        
+      
+     </view>
+    
+     
+    </view>
+  </view>
+</view>

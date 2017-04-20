@@ -1,0 +1,19 @@
+/**index.wxss**/
+.listImage{
+    width: 25px;
+    height: 25px;
+
+}
+
+.left{
+    flex: 1;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.right{
+    flex:6;
+    display: flex;
+    flex-direction: column;
+}

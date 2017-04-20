@@ -1,0 +1,11 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+ font-size: 32rpx;
+  padding: 10rpx;
+} 
+.list{
+  margin: 20rpx 10rpx;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+}
